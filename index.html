@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="1site.css" >       
+<section class="showcase">
+    <header>
+      <h2 class="logo">Travel</h2>   
+      <div class="toggle"></div>
+    </header>
+    <video id="vid" src="1site.mp4" muted loop autoplay>BEAUTY TO BE EXPLORED</video>
+    <script>
+         var vid=document.getElementById("vid").playbackRate =0.5;
+         </script>
+    <div class="overlay"></div>
+    <div class="text">
+      <h2>Never Stop To </h2> 
+      <h3>Exploring The World</h3>
+      <p>Travelling is an amazing way to learn a lot of things in life. 
+          A lot of people around the world travel every year to many places.
+          Moreover, it is important to travel to humans. 
+          Some travel to learn more while some travel to take a break from their life.</p>.
+      <a href="#">Explore</a>
+    </div>
+    <ul class="social">
+      <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+    </ul>
+  </section>
+  <div class="menu">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">News</a></li>
+      <li><a href="#">Destination</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+
+  <script>
+    
+    const menuToggle = document.querySelector('.toggle');
+    const showcase = document.querySelector('.showcase');
+
+    menuToggle.addEventListener('click', () => {
+       menuToggle.classList.toggle('active');
+      showcase.classList.toggle('active');
+})
+  </script>
+</body>
+</head>
+  </html>
